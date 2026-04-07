@@ -49,17 +49,3 @@ This repository is a live documentation of my progress through the SheCodes work
 > *“Coding is my superpower.”* ```
 
 ---
-
-### How to "Tick" the boxes:
-1. Open your `README.md` on GitHub and click the **pencil icon** (Edit).
-2. Find the week you finished.
-3. Change `[ ]` to `[x]` (make sure there is **no space** inside the brackets for the `x`).
-4. Scroll down and click **Commit changes**.
-
-### Pro-Tip for your Folders:
-Since you’re doing so many workshops, I recommend naming your folders to match the sections above so your files don't get messy. For example:
-* `/Basics/Week-1/`
-* `/Basics-Addon/Week-1/`
-* `/Plus/Week-1/`
-
-You're already 99% done with Basics—are you planning to start the **Basics Add-on** immediately after you finish your final project?
