@@ -5,69 +5,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
+
 <style>
-    h1{
-        color: blueviolet;
-        font-size: 50px;
-        text-align: center;
-        font-family: 'Courier New', Courier, monospace;
-        background-color: black;
-    }
-
-    p {
-        color: brown;
-        text-align: left;
-        font-size: 20px;
- 
-    }
-
-    a {
-        color: black;
-    }
-
-    li {
-        color: navy;
-    }
-    .efficient {
-color: palevioletred;
-    }
-    .semi{
-    
-    }
-     img {
-        width: 200px;
+    h1 {
+        color: #1864D6;
         display: block;
-        margin: 0 auto;
-     }
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h3{
+        font-size: 1.17em;
+    }
+
+    ul {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    button {
+        display: block;
+        margin: 20px auto;
+
+    }
+
+    .bold {
+        font-weight: bold;
+    }
+
+    .currentTempSize {
+        font-size: 34px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        display: block;
+    }
+
+    .tempDetails{
+        color: #4D4B47;
+        font-size: 18px;
+    }
+    
+    .dailyDisplay{
+       
+        
+    }
+
+    .dailyDisplay:hover {
+        background-color: antiquewhite;
+        
+        
+    }
+    
 </style>
+
+
 <body>
+
     <h1>
-        JAMEY RAYGENE AFRICA
+        🌤
+        <br/>
+        Currently 21° in Tokyo
     </h1>
-    <p>
-        <strong> 
-        Coding Languages: </strong>
-    </p>
+
+       <div class = "currentTempSize"> 13°  <span class = "bold"> / 23°</span> </div>
+    
 
     <ul>
-<li class = "efficient semi">
-    Python
-</li>
-<li>
-    Java
-</li>
-<li>
-    HTML
-</li>
-<li>
-    CSS
-</li>
-<li>
-    Javascript
-</li>
+
+        <li>
+            <div class = "dailyDisplay">
+            <h3>🌧Tomorrow</h3>
+        <br/>
+            <div class = "tempDetails">10° /  <span class="bold">22° </span></div>
+            </div>
+        </li>
+
+
+        <li>
+            <h3>🌥 Saturday</h3>
+        </li>
+        <li>
+           <div class = "tempDetails"> 15° / <span class="bold"> 17° </span></div>
+        </li>
+
+        <li>
+            <h3>☀️ Sunday</h3>
+            <li>
+                <div class = "tempDetails"> 25° <span class="bold">/ 28° </span> </div>
+            </li>
+        </li>
     </ul>
-<a href="https://www.shecodes.io/">SheCodes</a>
-<img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/500px-Python.svg.png">
-is a Coding workshop
+
+    <button >
+        Change city
+    </button>
+
+    <p>
+        Coded by Jamey Africa
+    </p>
 </body>
 </html>
