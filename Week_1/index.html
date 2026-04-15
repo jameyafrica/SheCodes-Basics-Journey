@@ -17,16 +17,58 @@
 
     h3{
         font-size: 1.17em;
+        margin: 0;
+        line-height: 48px;
+        display: block;
     }
 
     ul {
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
+        list-style: none;
+        line-height: 48px;
     }
 
-    button {
-        display: block;
+    li {
+        list-style: none;
+        text-align: center;
+        padding: 10px 0;
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    button {display: block;
         margin: 20px auto;
+        border: 1px solid #1a64d6;
+        background: #1a64d6;
+        color: #fff;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 16px 24px;
+        border-radius: 30px;
+        transition: all 200ms ease;
+        box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #fff;
+        color:#1a64d6 ;
+    }
+
+
+
+
+
+
+
+    p{ font-family: monospace;
+        text-align: center;
+        font-size: 18px;
+        opacity: 0.7;
+        display: block;;
 
     }
 
@@ -39,14 +81,17 @@
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
         display: block;
+        line-height: 48px;
     }
 
     .tempDetails{
         color: #4D4B47;
         font-size: 18px;
+        margin: 0;
+        line-height: 48px;
     }
     
-    .dailyDisplay{
+    .dailyDisplay{ 
        
         
     }
@@ -76,25 +121,28 @@
         <li>
             <div class = "dailyDisplay">
             <h3>🌧Tomorrow</h3>
-        <br/>
             <div class = "tempDetails">10° /  <span class="bold">22° </span></div>
             </div>
         </li>
 
 
         <li>
+            <div class = "dailyDisplay">
             <h3>🌥 Saturday</h3>
-        </li>
-        <li>
            <div class = "tempDetails"> 15° / <span class="bold"> 17° </span></div>
+            </div>
         </li>
 
+
         <li>
+            <div class = "dailyDisplay">
             <h3>☀️ Sunday</h3>
-            <li>
                 <div class = "tempDetails"> 25° <span class="bold">/ 28° </span> </div>
-            </li>
+        
+            </div>
         </li>
+
+
     </ul>
 
     <button >
