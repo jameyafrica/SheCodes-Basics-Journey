@@ -5,12 +5,11 @@ This repository is a live documentation of my progress through the SheCodes work
 ---
 
 ## 🎓 Workshop Progress
-
-### 1. SheCodes Basics (3 Weeks) - *Current*
+### 1. SheCodes Basics (3 Weeks) - *Complete* 🏆
 - [x] Week 1: Weather App Landing Page
-- [ ] Week 2: [Placeholder for Homework Name]
-- [ ] Week 3: [Placeholder for Homework Name]
-- [ ] 🏆 **Basics Final Project**
+- [x] Week 2: Interactive Weather App (DOM Manipulation & Logic)
+- [x] Week 3: Project Building
+- [x] 🏆 **Basics Final Project: Interactive Dog Fan Page**
 
 ### 2. SheCodes Basics Add-on (1 Week)
 - [ ] Week 1: [Placeholder for Homework Name]
