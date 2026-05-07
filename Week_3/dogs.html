@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogs</title>
+    <style>
+body{
+    background-color: #dbcccc;
+}
+    h1{
+        text-align: center;
+        color: blueviolet;
+        font-weight: 600;
+    }
+
+    h2{ text-align: center;
+        border: 1px solid blueviolet;
+        line-height:50px;
+        padding: 15px;
+        border-radius: 4px;
+        background-color:	#8faab3 ;
+        
+    }
+
+    img{
+        display: block;
+        margin: 0;
+        max-width:100%;
+        border-radius: 10px;
+    }
+    p{
+        line-height: 1.5;
+        font-size: 13px;
+        margin: 0 0 10px;
+    }
+
+    button{
+        display: block;
+        margin:20px auto;
+        background: blueviolet;
+        color: white;
+        font-size: 24px;
+        padding: 10px 20 px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+        transition: all 200ms ease-in-out;
+
+    }
+
+    button:hover{
+        opacity: 0.9;
+        cursor: pointer;
+    }
+    .learn-more{
+        padding-top: 10px;
+        text-decoration: none;
+        color: red;
+        font-size: 11px;
+    }
+          
+    .learn-more:hover{
+        text-decoration: underline;
+    }
+
+        .footer{
+            text-align: center;
+            margin: 0 auto;
+            padding: 10px;
+             background: linear-gradient(#e66465, #9198e5);
+        }
+        .container{
+            
+            max-width: 800px;
+        }
+    </style>
+</head>
+<body>
+    <div class ="container">
+    <h1>I love Dogs</h1>
+
+    <h2><span>Especially Mine</h2></span>
+<hr>
+    <img src="
+https://s3.amazonaws.com/shecodesio-production/uploads/files/000/168/376/original/images.jpg?1750333867" 
+    alt="Dog"
+     target = "_blank"
+     
+    >
+     <p>
+        Dogs (Canis lupus familiaris) are domesticated descendants of wolves and are widely considered 
+        "man's best friend" due to their loyalty and historical partnership with humans. They were the first animals ever domesticated, with evidence suggesting the process began over 25,000 years ago. Today, they are the most popular pet globally, found in approximately one-third of all households. 
+     </p>
+    <br>
+    <hr>
+<a href="https://en.wikipedia.org/wiki/Dog"
+target = "_blank" class="learn-more">
+
+   <strong> Learn more on wikipedia</strong>
+</a>
+
+<button class="support-button">
+<em>Support animal charities</em>
+
+</button>
+<hr>
+<p class=" footer">
+    This page was built by 
+<a href="https://github.com/jameyafrica" target="_blank">Jamey Africa</a>
+</p>
+</div>
+
+<script>
+    function support(){
+        let name = prompt("What is your name?")
+        let email = prompt("What is your email address?")
+        let emoji = prompt("What is your favorite emoji?")
+
+        if (name == "" || email == "" || emoji == "") {
+            alert("Please enter valid value")
+        }
+        else {
+
+        alert("Thank you " + name + ", we will be in touch by email,meanwhile love a lot of dogs " + emoji )}
+    }
+    let supportButton = document.querySelector(".support-button")
+    supportButton.addEventListener("click", support)
+</script>
+</body>
+</html>
