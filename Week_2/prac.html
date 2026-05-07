@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{ 
+            text-align: center;
+            color: blue;
+        }
+
+        button {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        SheCodes
+    </h1>
+    <!-- <script>
+        function greetUser() {
+             let language = prompt("What language do you speak?");
+
+        let continent = prompt("Which continent are you from?")
+
+            if (language === "Xhosa" && continent === "Africa") {
+                
+                alert("Molweni")
+            }
+
+            else {
+                alert("👋👋👋")
+            }
+        }
+       greetUser();
+
+    </script> -->
+    <ul>
+        <li class="free">
+            SheCodes Workshop
+        </li>
+
+        <li class="advanced">
+            SheCodes+
+        </li>
+
+        <li class="free">
+            SheCodes Story
+        </li>
+    </ul>
+
+    <button>
+        Contact me
+    </button>
+
+    <script>
+        
+        function  contactUs() {
+        let name = prompt("What is your name?");
+        let email  = prompt("What is your email address?");
+
+        let h1 = document.querySelector("h1"); //selecting h1
+        h1.innerHTML = "Thank you " + name + ", we will be in touch!"; 
+        //replaced h1 with the above -> changing content of the page
+
+        
+
+        } // we only want this piece of code to run when the button is clicked
+    
+        let contactButton = document.querySelector("button")
+        //in the document the elemt which has button will be selected and out inside the variable
+
+        //everytime someone clicks the button, do this        
+        contactButton.addEventListener("click", contactUs)
+    </script>
+</body>
+</html> 
